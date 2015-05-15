@@ -13,6 +13,7 @@ includes:
   - parameters
   - signature
   - errors
+  - list
   - dataapi
 
 search: true
