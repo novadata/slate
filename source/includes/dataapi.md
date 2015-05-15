@@ -121,7 +121,11 @@ curl "http://api.novadata.cn/v2/data/websites/551e39610fb408c079b91a82?q=&sort=&
 
 根据查询条件q,分页查询指定website，从起始位置offset开始，其后的limit条数据.
 
-<aside class="note">http://api.novadata.cn/v2/data/websites/552f2304a21471c6dc48f7f9?limit=100&q=data.商品名称:* 可以查询商品名称不为空的数据，q=data.商品名称:(* AND "水果") 可以查询商品名称不为空并且包含水果的数据。</aside>
+
+<aside class="note">
+q 参数:<br>
+field:* 可以查询field不为空的数据，<br>
+field:(* AND "水果") 可以查询商品名称不为空并且包含水果的数据。</aside>
 
 ### HTTP Request
 
