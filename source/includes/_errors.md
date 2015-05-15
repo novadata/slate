@@ -34,14 +34,14 @@
 <td>身份验证失败</td>
 <td><div class="first last line-block">
 <div class="line">当用户提供了不存在的access_key_id参数，或者API请求的签名不正确时，会返回该错误。</div>
-<div class="line">此时可以检查access_key_id和secret_access_key是否配置正确，或者参考我们的签名文档 <a class="reference internal" href="签名方法"><em>签名方法</em></a> 检查是否签名有误。</div>
+<div class="line">此时可以检查access_key_id和secret_access_key是否配置正确，或者参考我们的签名文档 <a class="reference internal" href="#签名方法"><em>签名方法</em></a> 检查是否签名有误。</div>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td>1300</td>
 <td>消息已过期</td>
 <td>当用户提交的 <tt class="docutils literal"><span class="pre">time_stamp</span></tt> 参数时间过期(超过60秒)时会返回该错误。关于
-<tt class="docutils literal"><span class="pre">time_stamp</span></tt> ，可以参考 <a class="reference internal" href="公共参数"><em>公共参数</em></a></td>
+<tt class="docutils literal"><span class="pre">time_stamp</span></tt> ，可以参考 <a class="reference internal" href="#公共参数"><em>公共参数</em></a></td>
 </tr>
 <tr class="row-odd"><td>1400</td>
 <td>访问被拒绝</td>

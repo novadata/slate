@@ -6,9 +6,9 @@ Novadata向用户开放所有数据服务相关的API，API通过 HTTPS GET和HT
 
 Name|	Description	|Notes
 ----|----|-----|
-API入口|	API 调用的 入口|	如：https://api.novadata.com/data/。 完整的列表请参见 [API列表](API列表)。
-公共参数	|每个 API 调用都需要包含公共参数|	详情可见 [公共参数](公共参数) 
-特定参数	|每个API特定的参数| 请参见[API列表](API列表)中的相关文档。
+API入口|	API 调用的 入口|	如：https://api.novadata.com/data/。 完整的列表请参见 [API列表](#api列表)。
+公共参数	|每个 API 调用都需要包含公共参数|	详情可见 [公共参数](#公共参数) 
+特定参数	|每个API特定的参数| 请参见[API列表](#api列表)中的相关文档。
 
 ##API 请求样例
 
@@ -25,7 +25,7 @@ https://api.novadata.cn/v1/data/query?access_key_id=NOVADATAACCESSKEYIDEXAMPLE
 
 Name|	Description	|Notes
 ----|----|-----|
-code|int|	返回码,用来表示API请求的返回值，参见[返回码](返回码)
-msg|	string	|对返回码的详情说明，参见[返回码](返回码)
-results	|json	|返回结果集,请参见每个[API列表](API列表)的相关文档
-total_count |long	| 根据过滤条件得到的数据总数,请参见每个[API列表](API列表)的相关文档
+code|int|	返回码,用来表示API请求的返回值，参见[返回码](#返回码)
+msg|	string	|对返回码的详情说明，参见[返回码](#返回码)
+results	|json	|返回结果集,请参见每个[API列表](#api列表)的相关文档
+total_count |long	| 根据过滤条件得到的数据总数,请参见每个[API列表](#api列表)的相关文档

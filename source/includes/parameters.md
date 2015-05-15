@@ -13,4 +13,4 @@ Name	|Description	|Notes|
 -------|----------|---------|
 access_key|	access key|例如”NovaACCESSKEYIDEXAMPLE”。	 	 
 signature_version |签名函数的版本号|目前只支持版本号为 1,签名所用哈希算法为HmacSHA256。	 
-signature	|请求消息的签名|请参见 [签名方法](签名方法)
+signature	|请求消息的签名|请参见 [签名方法](#签名方法)
