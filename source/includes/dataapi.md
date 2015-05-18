@@ -49,7 +49,7 @@ ID | 要获取数据的 id
 
 
 ```shell
-curl "http://api.novadata.cn/v1/data/1"
+curl -X DELETE "http://api.novadata.cn/v1/data/1"
 ```
 
 > The above command returns JSON structured like this:
