@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Documentation</title>
+
+    <link href="../stylesheets/screen.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="../javascripts/all_nosearch.js" type="text/javascript"></script>
+
+  </head>
+
+  <body class="includes includes_parameters">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="../images/navbar.png" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+      <img src="../images/logo.png" />
+      <div id="toc">
+      </div>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id="公共参数">公共参数</h1>
+
+<p>公共参数是所有 API 请求都必需的参数。</p>
+
+<aside class="notice">
+注解 为减少内容重复，公共参数就不在各API中列出了。
+</aside>
+
+<p>公共参数:</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Notes</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>access_key</td>
+<td>access key</td>
+<td>例如”NovaACCESSKEYIDEXAMPLE”。</td>
+</tr>
+<tr>
+<td>signature_version</td>
+<td>签名函数的版本号</td>
+<td>目前只支持版本号为 1,签名所用哈希算法为HmacSHA256。</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>请求消息的签名</td>
+<td>请参见 <a href="#签名方法">签名方法</a></td>
+</tr>
+</tbody></table>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
