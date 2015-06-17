@@ -76,7 +76,7 @@ ID | 要删除数据的 id
 
 
 ```shell
-curl "http://api.novadata.cn/v2/data/websites/551e39610fb408c079b91a82?q=&sort=&offset=2&limit=2&access_key_id=NOVADATAACCESSKEYIDEXAMPLE&signature_version=1&signature=ihPnXFgsg5yyqhDN2IejJ2%2Bbo89ABQ1UqFkyOdzRITY%3D&version=1"
+curl "http://api.novadata.cn/v1/data/websites/551e39610fb408c079b91a82?q=&sort=&offset=2&limit=2&access_key_id=NOVADATAACCESSKEYIDEXAMPLE&signature_version=1&signature=ihPnXFgsg5yyqhDN2IejJ2%2Bbo89ABQ1UqFkyOdzRITY%3D&version=1"
 ```
 
 > The above command returns JSON structured like this:
@@ -129,7 +129,7 @@ field:(* AND "水果") 可以查询商品名称不为空并且包含水果的数
 
 ### HTTP Request
 
-`GET http://api.novadata.cn/v2/data/websites/<WebsiteId>`
+`GET http://api.novadata.cn/v1/data/websites/<WebsiteId>`
 
 ### URL Parameters
 
@@ -155,7 +155,7 @@ WebsiteId | 要查询数据的 website id
 
 
 ```shell
-curl "http://api.novadata.cn/v2/data/websites/551e39610fb408c079b91a82?q=&sort=&offset=2&limit=2&access_key_id=NOVADATAACCESSKEYIDEXAMPLE&signature_version=1&signature=ihPnXFgsg5yyqhDN2IejJ2%2Bbo89ABQ1UqFkyOdzRITY%3D&version=1"
+curl "http://api.novadata.cn/v1/data/websites/551e39610fb408c079b91a82?q=&sort=&offset=2&limit=2&access_key_id=NOVADATAACCESSKEYIDEXAMPLE&signature_version=1&signature=ihPnXFgsg5yyqhDN2IejJ2%2Bbo89ABQ1UqFkyOdzRITY%3D&version=1"
 ```
 
 > The above command returns JSON structured like this:
@@ -177,7 +177,7 @@ curl "http://api.novadata.cn/v2/data/websites/551e39610fb408c079b91a82?q=&sort=&
 
 ### HTTP Request
 
-`GET http://api.novadata.cn/v2/data/websites/<WebsiteId>/archive`
+`GET http://api.novadata.cn/v1/data/websites/<WebsiteId>/archive`
 
 ### URL Parameters
 
